@@ -1,0 +1,15 @@
+info:
+  name: POST to free-api.deepl.com
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: https://api-free.deepl.com/v2/translate
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
